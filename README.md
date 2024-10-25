@@ -22,8 +22,8 @@ A real-time weather monitoring system that fetches and displays weather data for
 
 ## Docker Compose:
 
-- Backend Container: btech-backend running on http://localhost:5000
-- Frontend Container: btech-frontend running on http://localhost:3000
+- Backend Container: btech-backend will run on http://localhost:5000
+- Frontend Container: btech-frontend will run on http://localhost:3000
 
 
 ## Project Structure
