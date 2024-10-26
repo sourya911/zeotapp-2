@@ -30,7 +30,7 @@ A real-time weather monitoring system that fetches and displays weather data for
 
 ## Setup and Installation
 - Clone the Repository
-- git clone https://github.com/your-username/weather-monitoring-system.git
+- git clone https://github.com/sourya911/zeotApp-2
 - install dependencies
 - npm install
 
