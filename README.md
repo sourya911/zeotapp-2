@@ -20,10 +20,9 @@ A real-time weather monitoring system that fetches and displays weather data for
 - Sends alerts for temperatures above 35°C
 - Refreshes weather data periodically
 
-## Docker Compose:
-
-- Backend Container: btech-backend will run on http://localhost:5000
-- Frontend Container: btech-frontend will run on http://localhost:3000
+## Dockerization
+- docker build -t btech-frontend .
+- docker run -p 3000:3000 btech-frontend
 
 ## Prerequisites
 - Node.js and npm installed
@@ -52,11 +51,14 @@ weather-monitoring-system/
 ## Usage
 - View real-time weather data for cities and receive alerts if the temperature exceeds 35°C
 
-## Environment Variables
+
+
+# Environment Variables
+## You may need to configure environment variables for the backend API endpoint in your .env file:
+- REACT_APP_BACKEND_API=http://localhost:5000/api/weather
 - PORT=5000
 - MONGO_URI=mongodb+srv://user1c:T5CkN5eA9LSXPevi@cluster0.nfnw30m.mongodb.net/weatherMonitoring?retryWrites=true&w=majority&appName=Cluster0
 - OPENWEATHER_API_KEY=cac5cec0ab003de7178e189e35bfb31c
-
 
 
 
